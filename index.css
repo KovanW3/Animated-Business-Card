@@ -1,0 +1,97 @@
+@keyframes image{
+    
+    from{
+        margin-left: 0px;
+    }
+    to{
+        margin-left: 20px;
+    }
+}
+
+img{
+    
+    width: 150px;
+    box-shadow: 0px 0px 15px;
+    animation-name: image;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    
+}
+
+.card{
+    
+    
+    background: darkgoldenrod;
+    width: 400px;
+    margin: 20px auto 20px auto;
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    justify-content: space-around;
+    border: 3px solid brown;
+    color: yellow;
+    text-shadow: 3px 3px 5px black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.3px;
+    
+}
+
+
+
+h2:hover{
+    
+  background: black;  
+}
+
+p:hover {
+    
+    background: brown;
+    color: white;
+}
+
+
+h3:hover {
+    
+    color: orange;
+   
+
+}
+
+a:hover{
+    
+    color: black;
+}
+
+a:link{
+    
+    color: green;
+}
+
+a:visited{
+    
+    color: brown;
+}
+
+
+@keyframes anime{
+    
+    from{
+        color: darkgoldenrod;
+    }
+    to{
+        color: yellow;
+    }
+}
+
+h2, p, h3 {
+    
+    animation-name: anime;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
